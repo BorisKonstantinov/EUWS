@@ -1,0 +1,105 @@
+\documentclass[12pt, a4paper, onecolumn]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[round]{natbib}
+\usepackage[table,xcdraw,dvipsnames]{xcolor}
+\usepackage{float}
+\usepackage{geometry}
+	\geometry{
+		a4paper,
+		top=20mm,
+		bottom=20mm,
+		left=25mm,
+		right=15mm}
+\usepackage{graphicx}
+\usepackage{sidecap}
+\usepackage{subcaption}
+\usepackage{url}
+\usepackage{setspace}
+\doublespacing       
+%\linespread{1.5}
+
+%Grid for when I want to measure
+%\usepackage[grid,
+%gridcolor=red!20,
+%subgridcolor=green!20,
+%gridunit=mm]{eso-pic}
+
+\usepackage[export]{adjustbox}
+
+%biber for when I want to have biber
+%\usepackage[
+%	backend=biber,
+%	style=mla,
+%	sorting=ynt
+%		]{biblatex}
+%\addbibresource{library.bib}
+
+\usepackage{listings}
+\usepackage{subcaption} %adding package to put sub figures in figures
+\usepackage{amsmath}
+\sidecaptionvpos{figure}{t}
+\usepackage{csquotes}
+\usepackage{placeins}
+
+
+%_________________________________________________________________________
+% ____________________ D O C U M E N T _ S T A R T _______________________
+\begin{document}
+
+
+
+% TITLE PAGE
+\input{Title Page.tex}
+
+% ABSTRACT
+\input{abstract.tex}
+
+\renewcommand{\abstractname}{Acknowledgements}
+\begin{abstract}
+    I extend my sincere gratitude to Dr. Kevin Hodges, my dedicated supervisor at the University of Reading, for his support and guidance during this project. His encouragement allowed me to explore the questions I found most intriguing. I would also like to express my appreciation to Dr. Sagar Bora from AON for providing valuable insights and access to windstorm severity and loss data, which greatly facilitated the comparison of my techniques with industry standards. \newline
+
+    I am deeply grateful to my partner, Harley King, for her belief in me, her unwavering support, patience, and understanding. I would also like to acknowledge the support of my mother, Nikolina Konstantinova, and my close friend, Dominic Popov. Their help enabled me to maintain my focus and give my best to this project.\newline
+
+    Finally, I would like to acknowledge my grandfather, Prof. Yulian Konstantinov, for his meticulous recordkeeping of the water levels of the lower Danube river. While not directly relevant to this project, his work has been a great source of inspiration.
+\end{abstract}
+
+% Table of Contents: ...
+\tableofcontents
+
+
+
+% CHAPTER 1
+
+\chapter{Motivation and Objectives}
+    \input{Chapter_1.tex}
+
+% CHAPTER 2
+\chapter{Background}
+    \input{Chapter_2.tex}
+
+% CHAPTER 3
+\chapter{Data and Methodology}
+    \input{Chapter_3.tex}
+
+% CHAPTER 4
+\chapter{Results: Performance of SSI methods}
+    \input{Chapter_4.tex}
+
+% CHAPTER 5
+\chapter{Results: EUWS and the NAO}
+    \input{Chapter_5.tex}
+
+% CHAPTER 6
+\chapter{Discussion of Results, Conclusions and Future work}
+    \input{Chapter_6.tex}
+
+
+
+\renewcommand{\refname}{References}
+    \bibliography{mybibliography}
+    \bibliographystyle{ametsocv6}
+
+\appendix
+    \input{appendix}
+
+\end{document}

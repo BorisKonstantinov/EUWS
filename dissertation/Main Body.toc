@@ -1,0 +1,35 @@
+\contentsline {chapter}{\numberline {1}Motivation and Objectives}{3}{}%
+\contentsline {chapter}{\numberline {2}Background}{5}{}%
+\contentsline {section}{\numberline {2.1}The North Atlantic Oscillation}{5}{}%
+\contentsline {section}{\numberline {2.2}European Windstorms and the NAO}{6}{}%
+\contentsline {subsection}{\numberline {2.2.1}A brief history of windstorm forecasting}{7}{}%
+\contentsline {subsection}{\numberline {2.2.2}Where we are today}{12}{}%
+\contentsline {section}{\numberline {2.3}Existing SSI Methods}{13}{}%
+\contentsline {subsection}{\numberline {2.3.1}Description and Examples of Existing Methods}{13}{}%
+\contentsline {chapter}{\numberline {3}Data and Methodology}{15}{}%
+\contentsline {section}{\numberline {3.1}Data Review}{15}{}%
+\contentsline {subsection}{\numberline {3.1.1}NAO Data}{15}{}%
+\contentsline {subsection}{\numberline {3.1.2}Storm Track Data}{15}{}%
+\contentsline {subsection}{\numberline {3.1.3}Wind Data}{16}{}%
+\contentsline {section}{\numberline {3.2}The New SSI Method}{17}{}%
+\contentsline {subsection}{\numberline {3.2.1}Rationale for Development}{18}{}%
+\contentsline {section}{\numberline {3.3}Analysis of Wind Energy in Storms}{19}{}%
+\contentsline {subsection}{\numberline {3.3.1}Finding a Windstorm}{19}{}%
+\contentsline {subsection}{\numberline {3.3.2}Calculating the cross-sectional vector area $\mathbf {A}$}{21}{}%
+\contentsline {subsection}{\numberline {3.3.3}Obtaining Wind Energy}{24}{}%
+\contentsline {subsection}{\numberline {3.3.4}Challenges and Inaccuracies}{24}{}%
+\contentsline {chapter}{\numberline {4}Results: Performance of SSI methods}{25}{}%
+\contentsline {section}{\numberline {4.1}Highlighting Named Storms}{25}{}%
+\contentsline {section}{\numberline {4.2}Estimating Loss}{27}{}%
+\contentsline {chapter}{\numberline {5}Results: EUWS and the NAO}{29}{}%
+\contentsline {section}{\numberline {5.1}Risk of European Windstorm during NAO Neutral Index}{31}{}%
+\contentsline {section}{\numberline {5.2}The Influence of a Longer Dataset on Results}{36}{}%
+\contentsline {section}{\numberline {5.3}The Influence of the NAO State on Windstorm Paths in Europe}{39}{}%
+\contentsline {chapter}{\numberline {6}Discussion of Results, Conclusions and Future work}{42}{}%
+\contentsline {section}{\numberline {6.1}Discussion}{42}{}%
+\contentsline {subsection}{\numberline {6.1.1}Risk of European Windstorm during NAO Neutral Index}{42}{}%
+\contentsline {subsection}{\numberline {6.1.2}The Influence of a Longer Dataset on Results}{45}{}%
+\contentsline {subsection}{\numberline {6.1.3}The Influence of the NAO State on Windstorm Path Patterns in Europe}{46}{}%
+\contentsline {section}{\numberline {6.2}Summary of Findings}{48}{}%
+\contentsline {section}{\numberline {6.3}Future Work}{49}{}%
+\contentsline {chapter}{\numberline {A}Additional Material}{56}{}%
